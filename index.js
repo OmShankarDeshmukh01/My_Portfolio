@@ -18,9 +18,9 @@ app.get("/portfolio" , (req , res)=>{
     res.render("./portfolio/index.ejs");
 });
 
-app.use("/" ,(req , res)=>{
-    res.send("Hello , I am Root.");
-});
+// app.use("/" ,(req , res)=>{
+//     res.send("Hello , I am Root.");
+// });
 
 app.listen(port , ()=>{
     console.log("app is listening to port");
