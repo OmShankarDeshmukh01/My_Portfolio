@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  .cnt{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/two.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .box{
+    
+    border :white 2px solid;
+    margin : 2.3rem;
+    height: 90vh;
+    background-image: url('/images/one.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+      
+}
+.container h1{
+    margin-left:9px ;
+    color:black;
+    font-family: "Fredericka the Great", serif;
+    font-weight: 800;
+    font-size: 40px;
+    font-style: normal;
+    display :flex;
+    align-items:first baseline;
+    justify-content:first baseline;
+}
+.container h5{
+    margin-left:15px ;
+    color:black;
+    font-family: "Fredericka the Great", serif;
+    font-weight: 600;
+    font-size: 15px;
+    font-style: normal;
+    display :flex;
+    align-items:first baseline;
+    justify-content:first baseline;
+    
+}
+.bottom-container h3{
+    margin-left:20px ;
+    margin-top: 50px;
+    color:black;
+    font-family: "Fredericka the Great", serif;
+    font-weight: 600;
+    font-size: 100px;
+    font-style: normal;
+    display :flex;
+    align-items:last baseline;
+    justify-content:last baseline;
+}
+  
+.bottom-container h2{
+    margin-left:20px ;
+    color:black;
+    font-family: "Fredericka the Great", serif;
+    font-weight: 600;
+    font-size: 100px;
+    font-style: normal;
+    display :flex;
+    align-items:first baseline;
+    justify-content:last baseline;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+.navbar li a{
+    font-size: 20px;
+    color :white;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 0.5rem;
+    margin-top: 10rem;
+}
